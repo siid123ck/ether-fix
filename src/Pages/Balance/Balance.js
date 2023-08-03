@@ -24,7 +24,6 @@ const Balance = () => {
   const fetchBalance = async () => {
     try {
       const balance = await erc1155Contract.balanceOf(account,tokenId);
-      
       const name = await daiContract.name();
       setName(name);
       setTokenBalance(balance);
