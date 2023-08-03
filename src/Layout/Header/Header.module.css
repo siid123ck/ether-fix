@@ -1,0 +1,70 @@
+/* Header.module.css */
+
+.header {
+    background-color: #2b1818;
+    padding: 16px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbarList {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .navbarItem {
+    margin-right: 8px;
+  }
+  
+  .navbarLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  button {
+    /* Resetting default styles */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    /* Add custom styles */
+    /* ... */
+  }
+  
+  
+  .navbarLink:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbarList {
+      flex-direction: column;
+    }
+  
+    .navbarItem {
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
+  }
+  
