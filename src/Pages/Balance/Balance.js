@@ -7,12 +7,12 @@ const Balance = () => {
   const [tokenBalance, setTokenBalance] = useState(0);
   const [account, setAccount] = useState('0x5B38Da6a701c568545dCfcB03FcB875f56beddC4');
   const [tokenId, setTokenId] = useState(0);
-  const [erc1155Contract, , daiContract] = UseContract();
+  const [erc1155Contract,  , daiContract] = UseContract();
   const [name, setName] = useState(''); 
   // console.log(erc1155Contract)
 
   // console.log(forgeContract)
-  // console.log(daiContract)
+  console.log(daiContract)
 
   // useEffect(() => {
   //   fetchBalance();

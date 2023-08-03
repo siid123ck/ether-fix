@@ -7,7 +7,7 @@ import UseEthers from './UseEthers';
 
 
 const UseContract = () => {
-    const erc1155ContractAddress = '0xb5465ED8EcD4F79dD4BE10A7C8e7a50664e5eeEB';
+    const erc1155ContractAddress = '0xA70097229ae36424DcD6b019708bb65E424D86C9';
     const forgeContractAddress = '0x8059B0AE35c113137694Ba15b2C3585aE77Bb8E9';
     const daiContractAddress = '0x6B175474E89094C44Da98b954EedeAC495271d0F';
 
